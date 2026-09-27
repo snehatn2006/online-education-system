@@ -1,6 +1,7 @@
 # Online Education System - Storyboard
 
 ## Scene 1: Registration/Login
+
 The student or teacher registers an account and logs into the Online Education System.
 
 **Inputs:**
@@ -14,102 +15,132 @@ The student or teacher registers an account and logs into the Online Education S
 ---
 
 ## Scene 2: Dashboard
+
 After logging in, the user is redirected to the dashboard.
 
 **Student Dashboard:**
 - My Courses
 - Available Courses
-- Assignments
 - Progress
-- Profile
-- Logout
+- To-Do List
+- Notifications
 
 ---
 
 ## Scene 3: Course Selection
-The student views the available courses and selects a course.
 
-**Example Courses:**
-- Python Programming
-- Web Development
-- Database Management
+The student views available courses and selects a course to enroll in.
+
+**Inputs:**
+- Course selection
 
 **Output:**
-- Selected course details are displayed.
+- Course details
+- Course enrollment
+- Course added to My Courses
 
 ---
 
-## Scene 4: Course Enrollment
-The student selects the required course and clicks the Enroll button.
+## Scene 4: Course Learning
+
+The student accesses the lessons and learning materials of an enrolled course.
+
+**Learning Materials:**
+- Video lessons
+- Notes
+- Quizzes
+- Assignments
 
 **Output:**
-- Student is enrolled in the selected course.
+- Lesson completed
+- Course progress updated
 
 ---
 
-## Scene 5: Study Materials
-The student accesses the learning materials provided by the teacher.
+## Scene 5: Progress Tracking
 
-**Materials:**
-- Video lectures
-- PDF notes
-- Presentations
-- Documents
+The student can view their progress in each enrolled course.
+
+**Progress Information:**
+- Course completion percentage
+- Completed lessons
+- Remaining lessons
+- Completed assignments
+- Quiz results
 
 **Output:**
-- Student can study the available materials.
+- Progress bar
+- Completion percentage
+- Course status
 
 ---
 
-## Scene 6: Online Class
-The teacher conducts an online class and students attend the class through the system.
+## Scene 6: To-Do List
+
+The student can view and manage tasks related to their courses.
+
+**To-Do Items:**
+- Complete assignment
+- Watch lesson
+- Take quiz
+- Submit project
+- Upcoming deadlines
+
+**Actions:**
+- Add task
+- Edit task
+- Mark task as completed
+- Delete task
 
 **Output:**
-- Students participate in the online learning session.
+- Updated task list
+- Completed/pending task status
 
 ---
 
-## Scene 7: Assignment Submission
-The teacher uploads an assignment. The student completes the assignment and uploads the solution.
+## Scene 7: Assignments
+
+The student can view and submit assignments.
+
+**Inputs:**
+- Assignment
+- File/document submission
 
 **Output:**
-- Assignment is submitted successfully.
+- Assignment submitted
+- Submission status
+- Grade/feedback from teacher
 
 ---
 
-## Scene 8: Evaluation and Progress
-The teacher evaluates the submitted assignment and provides marks and feedback.
+## Scene 8: Notifications
 
-The student can view:
-- Marks
-- Feedback
-- Assignment status
-- Course completion
-- Overall progress
+The system displays important updates to the student.
+
+**Notifications:**
+- New assignment
+- Upcoming deadline
+- Teacher feedback
+- Quiz availability
+- Course announcements
 
 **Output:**
-- Student can track their learning progress.
+- Notification status
+- Read/unread notifications
 
 ---
 
-## Overall System Flow
+## Scene 9: Profile/Settings
 
-Login/Register
-       ↓
-Dashboard
-       ↓
-Select Course
-       ↓
-Enroll
-       ↓
-Study Materials
-       ↓
-Online Class
-       ↓
-Assignment
-       ↓
-Evaluation
-       ↓
-Progress Tracking
-       ↓
-Logout
+The student can manage their account information.
+
+**Actions:**
+- Edit profile
+- Change password
+- Update preferences
+- Logout
+
+**Output:**
+- Updated profile
+- Successful logout
+
